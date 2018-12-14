@@ -1,0 +1,27 @@
+.root {
+	composes: mdc-text-field from '@material/textfield/dist/mdc.textfield.css';
+}
+
+.input {
+	composes: mdc-text-field__input from '@material/textfield/dist/mdc.textfield.css';
+}
+
+.label {
+	composes: mdc-floating-label from '@material/textfield/dist/mdc.textfield.css';
+}
+
+.labelHasValue {
+	composes: mdc-floating-label--float-above from '@material/textfield/dist/mdc.textfield.css';
+}
+
+.hasTrailing {
+	composes: mdc-text-field--with-trailing-icon from '@material/textfield/dist/mdc.textfield.css';
+}
+
+.hasLeading {
+	composes: mdc-text-field--with-leading-icon from '@material/textfield/dist/mdc.textfield.css';
+}
+
+.icon {
+	composes: mdc-text-field__icon from '@material/textfield/dist/mdc.textfield.css';
+}
