@@ -17,8 +17,8 @@
   },
   "scripts": {
     "build": "run-s clean build:dojo build:material",
-    "build:dojo": "tcm src/dojo && dojo build theme -n dojo",
-    "build:material": "tcm src/material && dojo build theme -n material",
+    "build:dojo": "tcm src/dojo -p *.m.css && dojo build theme -n dojo",
+    "build:material": "tcm src/material -p *.m.css && dojo build theme -n material",
     "clean": "rimraf dist",
     "dojo-package": "dojo-package",
     "dojo-release": "dojo-release",
