@@ -29,7 +29,7 @@
   },
   "devDependencies": {
     "@dojo/cli": "^4.0.0",
-    "@dojo/cli-build-theme": "file:../cli-build-theme/dist/dojo-cli-build-theme-5.0.0-alpha.1.tgz",
+    "@dojo/cli-build-theme": "next",
     "@dojo/scripts": "~3.0.1",
     "@dojo/webpack-contrib": "^4.0.0",
     "cpx": "1.5.0",
